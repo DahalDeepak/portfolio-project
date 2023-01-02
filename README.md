@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **MERN stack**
 
-- 💬 Ask me about **Html, css and js**
+- 💬 Ask me about **Html, css, js and react.js **
 
 - 📫 How to reach me **deepak9dahal@gmail.com**
 
