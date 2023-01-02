@@ -14,7 +14,7 @@
 - 📫 How to reach me **deepak9dahal@gmail.com**
 
 - 📄 Know about my experiences [https://drive.google.com/file/d/1EAQCADryJ1iBuZ0tRVf9YXSDTTjM4Tzg/view?usp=share_link](https://drive.google.com/file/d/1EAQCADryJ1iBuZ0tRVf9YXSDTTjM4Tzg/view?usp=share_link)
-- 📄 Here is link for this portfolio - [https://dahaldeepak-portfolio.netlify.app]
+- 📄 Here is link for this portfolio - [https://dahaldeepak-portfolio.netlify.app](https://dahaldeepak-portfolio.netlify.app)
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/deepak9dahal/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/deepak9dahal/" height="30" width="40" /></a>
