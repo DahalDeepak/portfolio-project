@@ -19,6 +19,7 @@
 body {
   background: var(--bg-color);
   color: var(--text-color);
+  width: auto;
 }
 header {
   position: fixed;
