@@ -236,12 +236,12 @@ header.sticky {
   font-size: 20px;
   font-weight: 500;
 }
-.skills{
+.skills {
   background-color: #dad6d6;
   width: 98%;
   align-items: center;
 }
-.skills img{
+.skills img {
   border-radius: 4px;
 }
 .skills h3 {
@@ -614,6 +614,18 @@ header.sticky {
   }
   body {
     width: 90%;
+    display: grid;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  * {
+    max-width: 98%;
+    /* overflow: auto; */
+  }
+
+  body {
+    width: 86%;
     display: grid;
     align-items: center;
   }
