@@ -625,6 +625,7 @@ header.sticky {
   }
 }
 @media (max-width: 480px) {
+  
   .contact .action form input[type="email"] {
     width: 310px;
   }
