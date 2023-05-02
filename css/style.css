@@ -523,10 +523,11 @@ header.sticky {
   justify-content: center;
   align-items: center;
   text-align: justify;
-  gap: 12px;
+  column-gap: 20px;
 }
-/* .info-box {
-} */
+.info-box {
+  padding-left: 2px;
+}
 .footer-social {
   margin-top: -40px;
   text-align: center;
