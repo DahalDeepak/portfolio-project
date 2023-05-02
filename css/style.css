@@ -6,7 +6,7 @@
   font-family: "Jost", sans-serif;
   list-style: none;
   text-decoration: none;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 :root {
   --bg-color: #ffffff;
@@ -38,8 +38,8 @@ header {
 
 .logo img {
   max-width: 90%;
-  width: 100px;
-  height: auto;
+  width: auto;
+  height: 50px;
   border-radius: 40px;
 }
 .navlist {
@@ -244,10 +244,9 @@ header.sticky {
   padding-bottom: 8vh;
   flex-direction: column;
   background-color: #dad6d6;
-  width: 98%;
+  width: 100%;
   align-items: center;
   text-align: center;
-  
 }
 .skills img {
   border-radius: 4px;
@@ -510,16 +509,28 @@ header.sticky {
   color: var(--bg-color);
 }
 
-.ends {
+.footer-text {
   text-align: center;
   padding: 40px;
 }
-.ends p {
+.footer-text p {
   font-size: var(--p-font);
   letter-spacing: 1px;
 }
-
-
+.contact-info {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  gap: 12px;
+}
+/* .info-box {
+} */
+.footer-social {
+  margin-top: -40px;
+  text-align: center;
+}
 @media (max-width: 1425px) {
   header {
     padding: 16px 3%;
@@ -627,10 +638,10 @@ header.sticky {
     align-items: center;
   }
 }
+
 @media (max-width: 400px) {
   * {
-    max-width: 98%;
-    /* overflow: auto; */
+    max-width: 100%;
   }
 
   body {
