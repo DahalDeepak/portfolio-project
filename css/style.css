@@ -643,6 +643,13 @@ header.sticky {
   * {
     max-width: 100%;
   }
+  .contact .action form input[type="email"] {
+    width: 200px;
+  }
+
+  .contact .action form input[type="text"] {
+    width: 200px;
+  }
 
   body {
     width: 86%;
