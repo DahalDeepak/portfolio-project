@@ -238,9 +238,16 @@ header.sticky {
   font-weight: 500;
 }
 .skills {
+  display: flex;
+  flex-direction: column;
   background-color: #dad6d6;
-  width: 98%;
+  width: 100%;
   align-items: center;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+ .images {
+  max-width: 80%;
 }
 .skills img {
   border-radius: 4px;
