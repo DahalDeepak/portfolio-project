@@ -625,7 +625,9 @@ header.sticky {
   }
 }
 @media (max-width: 480px) {
-  
+  * {
+    max-width: 480px;
+  }
   .contact .action form input[type="email"] {
     width: 310px;
   }
@@ -634,15 +636,15 @@ header.sticky {
     width: 310px;
   }
   body {
-    width: 90%;
+    width: 86%;
     display: grid;
     align-items: center;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
   * {
-    max-width: 100%;
+    max-width: 98%;
   }
   .contact .action form input[type="email"] {
     width: 200px;
