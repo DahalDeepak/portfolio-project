@@ -99,7 +99,7 @@ section {
 .home {
   min-height: 110vh;
   height: 100%;
-  width: 100%;
+  width: 98%;
   background: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
@@ -118,6 +118,7 @@ section {
 .home-text h5 {
   margin-bottom: 23px;
   font-size: 19px;
+  line-height: 10px;
   font-weight: 500;
 }
 span {
@@ -551,7 +552,7 @@ header.sticky {
   }
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1024px) {
   #menu-icon {
     display: block;
   }
@@ -587,7 +588,7 @@ header.sticky {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .home {
     grid-template-columns: 1fr;
     min-height: 160vh;
@@ -619,7 +620,10 @@ header.sticky {
     transition: 0.3s;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 480px) {
+  *{
+    max-width: 480px;
+  }
   .contact .action form input[type="email"] {
     width: 310px;
   }
@@ -635,7 +639,7 @@ header.sticky {
 }
 @media (max-width: 400px) {
   * {
-    max-width: 98%;
+    max-width: 400px;
     /* overflow: auto; */
   }
 
