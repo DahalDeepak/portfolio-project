@@ -556,7 +556,7 @@ header.sticky {
   }
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1024px) {
   #menu-icon {
     display: block;
   }
@@ -592,7 +592,7 @@ header.sticky {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .home {
     grid-template-columns: 1fr;
     min-height: 160vh;
@@ -624,7 +624,7 @@ header.sticky {
     transition: 0.3s;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 480px) {
   .contact .action form input[type="email"] {
     width: 310px;
   }
