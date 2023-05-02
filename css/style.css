@@ -37,8 +37,8 @@ header {
 }
 
 .logo img {
-  max-width: 40%;
-  width: 130px;
+  max-width: 90%;
+  width: 100px;
   height: auto;
   border-radius: 40px;
 }
@@ -99,7 +99,7 @@ section {
 .home {
   min-height: 110vh;
   height: 100%;
-  width: 98%;
+  width: 100%;
   background: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
@@ -118,7 +118,6 @@ section {
 .home-text h5 {
   margin-bottom: 23px;
   font-size: 19px;
-  line-height: 10px;
   font-weight: 500;
 }
 span {
@@ -238,16 +237,17 @@ header.sticky {
   font-weight: 500;
 }
 .skills {
+  margin: 1px;
   display: flex;
-  flex-direction: column;
-  background-color: #dad6d6;
-  width: 100%;
-  align-items: center;
+  padding: 4px;
   padding-top: 8vh;
   padding-bottom: 8vh;
-}
- .images {
-  max-width: 80%;
+  flex-direction: column;
+  background-color: #dad6d6;
+  width: 98%;
+  align-items: center;
+  text-align: center;
+  
 }
 .skills img {
   border-radius: 4px;
@@ -510,30 +510,16 @@ header.sticky {
   color: var(--bg-color);
 }
 
-.footer-text {
+.ends {
   text-align: center;
   padding: 40px;
 }
-.footer-text p {
+.ends p {
   font-size: var(--p-font);
   letter-spacing: 1px;
 }
-.footer-social{
-  text-align: center;
-  margin-top: -6%;
-}
-.contact-info{
-  color: white;
-  width: 100%;
- display: flex;
- align-items: center;
- text-align: justify;
- gap: 10px;
-}
-.info-box{
-  max-width: 100%;
-  width: auto;
-}
+
+
 @media (max-width: 1425px) {
   header {
     padding: 16px 3%;
@@ -559,7 +545,7 @@ header.sticky {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 970px) {
   #menu-icon {
     display: block;
   }
@@ -595,7 +581,7 @@ header.sticky {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .home {
     grid-template-columns: 1fr;
     min-height: 160vh;
@@ -627,10 +613,7 @@ header.sticky {
     transition: 0.3s;
   }
 }
-@media (max-width: 480px) {
-  *{
-    max-width: 480px;
-  }
+@media (max-width: 540px) {
   .contact .action form input[type="email"] {
     width: 310px;
   }
@@ -646,7 +629,7 @@ header.sticky {
 }
 @media (max-width: 400px) {
   * {
-    max-width: 400px;
+    max-width: 98%;
     /* overflow: auto; */
   }
 
