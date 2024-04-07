@@ -28,5 +28,6 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dahaldeepak&show_icons=true&locale=en" alt="dahaldeepak" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dahaldeepak&" alt="dahaldeepak" /></p>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3e7d084c-f0df-4df3-ab17-355ef95356a2/deploy-status)](https://app.netlify.com/sites/dahaldeepak-portfolio/deploys)
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dahaldeepak&" alt="dahaldeepak" /></p>P
+<P>[![Netlify Status](https://api.netlify.com/api/v1/badges/3e7d084c-f0df-4df3-ab17-355ef95356a2/deploy-status)](https://app.netlify.com/sites/dahaldeepak-portfolio/deploys)
+</P>
